@@ -1,0 +1,12 @@
+# Text whose absence means a ticket IS available
+not_available_text: "Currently, no tickets are on sale for this event"
+
+# Seconds between each full round of checks
+interval_seconds: 10
+jitter_seconds: 4
+
+# Set to false to watch the browser
+headless: true
+
+# How many alarm beeps before pausing (then repeats every round a ticket is still available)
+alarm_beeps: 5
